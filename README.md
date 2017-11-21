@@ -10,7 +10,11 @@ To convert ES6 code or higher to a compatible version of JavaScript like ES5, I 
 Installation: 
 
 0- Download Node.Js at www.nodejs.org
+
 1- Install node.js
+
 2- Run inside the folder you'd like to be local installation of node_modules 'npm install --save-dev babel-cli babel-preset-env'
+
 3- Run from node_modules/.bin 'babel --presets env ../script.js --out-file ../script_transpiled.js
+
 4- Check the file generated
